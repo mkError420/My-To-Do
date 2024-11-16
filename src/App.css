@@ -1,0 +1,97 @@
+
+.input{
+  width: 100%;
+}
+
+/* .to-docontainer{
+  
+  text-align: left;
+  
+} */
+.mk-button{
+  min-width: 85px ;
+}
+
+.mk-row{
+  margin: 20px 15px ;
+}
+
+
+
+
+/* responsive */
+
+@media (max-width: 575px) {
+  .input {
+    width: 100%; /* Input remains full width */
+  }
+
+  .mk-button {
+    min-width: 70px; /* Slightly smaller button for mobile */
+    
+  }
+
+  .mk-row {
+    margin: 15px 10px; /* Reduce margin for smaller screens */
+  }
+}
+
+/* Small devices (between 576px and 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .input {
+    width: 100%; /* Input remains full width */
+  }
+
+  .mk-button {
+    min-width: 80px; /* Slightly smaller button */
+  }
+
+  .mk-row {
+    margin: 18px 12px; /* Slightly adjusted margin for small devices */
+  }
+}
+
+/* Medium devices (between 768px and 1024px, tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .input {
+    width: 100%; /* Keep input full width */
+  }
+
+  .mk-button {
+    min-width: 85px; /* Default button width for tablets */
+  }
+
+  .mk-row {
+    margin: 20px 15px; /* Default margin for medium devices */
+  }
+}
+
+/* Large devices (between 1024px and 1280px, larger tablets / small desktops) */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .input {
+    width: 100%; /* Keep input full width */
+  }
+
+  .mk-button {
+    min-width: 90px; /* Slightly larger button for larger tablets / small desktops */
+  }
+
+  .mk-row {
+    margin: 20px 18px; /* Slightly adjusted margin for larger screens */
+  }
+}
+
+/* Extra large devices (1280px and larger, desktops) */
+@media (min-width: 1280px) {
+  .input {
+    width: 100%; /* Full-width input on desktop */
+  }
+
+  .mk-button {
+    min-width: 95px; /* Larger button on desktop */
+  }
+
+  .mk-row {
+    margin: 20px 20px; /* Standard margin for large desktop screens */
+  }
+}

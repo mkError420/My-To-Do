@@ -1,0 +1,53 @@
+.welcome{
+  font-size: 35px;
+  font-weight: 700;
+  color: blueviolet;
+  transition: 1s;
+  margin-top: 50px;
+  
+}
+
+
+
+
+
+/* Responsive */
+
+@media (max-width: 575px) {
+  .welcome {
+    font-size: 20px;         /* Smaller font size for mobile */
+    margin-top: 30px;        /* Reduced margin-top for mobile */
+  }
+}
+
+/* Small devices (for screens between 576px and 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .welcome {
+    font-size: 25px;         /* Adjusted font size for small screens */
+    margin-top: 35px;        /* Adjusted margin-top for small screens */
+  }
+}
+
+/* Medium devices (for screens between 768px and 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .welcome {
+    font-size: 30px;         /* Slightly larger font for tablets */
+    margin-top: 40px;        /* Adjusted margin-top for tablets */
+  }
+}
+
+/* Large devices (for screens between 1024px and 1280px) */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .welcome {
+    font-size: 35px;         /* Default font size for larger tablets */
+    margin-top: 50px;        /* Default margin-top for larger tablets */
+  }
+}
+
+/* Extra large devices (for screens larger than 1280px, typically desktops) */
+@media (min-width: 1280px) {
+  .welcome {
+    font-size: 40px;         /* Larger font size for desktop */
+    margin-top: 60px;        /* Larger margin-top for desktop */
+  }
+}

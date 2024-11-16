@@ -1,0 +1,51 @@
+
+.todoHeading {
+  font-weight: 900 !important;
+  color: red !important;
+  font-size: 25px !important;
+  margin: 17px !important;
+}
+
+
+
+/* Responsive */
+
+
+@media (max-width: 575px) {
+  .todoHeading {
+    font-size: 18px !important;  /* Smaller font size for mobile */
+    margin: 12px !important;     /* Reduced margin on mobile */
+  }
+}
+
+/* Small devices (for screens between 576px and 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .todoHeading {
+    font-size: 20px !important;  /* Adjusted font size for small screens */
+    margin: 14px !important;     /* Adjusted margin for small screens */
+  }
+}
+
+/* Medium devices (for screens between 768px and 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .todoHeading {
+    font-size: 22px !important;  /* Slightly larger font for tablets */
+    margin: 15px !important;     /* Adjusted margin for tablets */
+  }
+}
+
+/* Large devices (for screens between 1024px and 1280px) */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .todoHeading {
+    font-size: 25px !important;  /* Default font size for larger tablets */
+    margin: 17px !important;     /* Default margin for larger tablets */
+  }
+}
+
+/* Extra large devices (for screens larger than 1280px, typically desktops) */
+@media (min-width: 1280px) {
+  .todoHeading {
+    font-size: 30px !important;  /* Larger font size for desktop */
+    margin: 20px !important;     /* Larger margin for desktop */
+  }
+}
